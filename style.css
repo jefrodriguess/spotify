@@ -16,14 +16,14 @@ body {
   padding: 16px 0 0 16px;
 }
 
-.sidebar_navegation .logo {
+ .logo {
   background-color: #121212;
   display: flex;
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
 
-.logo img {
+.sidebar_navegation .logo img {
   width: 80px;
 }
 
@@ -32,8 +32,8 @@ body {
     padding: 0 20px 10px 20px;
 }
 
-.sidebar nav ul li {
-    padding: 10x 0;
+.sidebar ul li {
+    padding: 10px 0;
 }
 
 .sidebar nav ul li a {
@@ -79,12 +79,13 @@ body {
 
 .library .library_button .bi{
   font-size: 20px;
-  margin-right: 10px;
   font-weight: 300;
+  color: #b3b3b3;
+  margin-right: 10px;
   padding-right: 8px;
 }
 
-.library .library_content .bibi-plus-circle{
+.library .library_content .bi-plus-circle{
   margin: 24px 10px;
 }
 
@@ -99,6 +100,7 @@ body {
   font-size: 14px;
   margin: 8px 0px;
   padding: 16px 20px;
+  border-radius: 10px;
 }
 
 .playlist .playlist_content{
@@ -109,6 +111,8 @@ body {
 .playlist .playlist_content .text{
   padding-bottom: 14px;
   color: #ffff;
+  font-family: "DM Sans", sans-serif;
+
 }
 
 .playlist .playlist_content .title{
@@ -123,7 +127,7 @@ body {
 section.playlist .playlist_content .playlist_button{
   display: flex;
   justify-content: center;
-  background-color: #ffff;
+  background-color: #fff;
   color: #000;
   border-radius: 20px;
   font-size: 12px;
@@ -136,4 +140,33 @@ section.playlist .playlist_content .playlist_button{
   border: 0;
   width: 113px;
 
+}
+
+.sidebar .cookies{
+  margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+  color: #b3b3b3;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+  text-decoration: underline;
+}
+
+.languages .lang_button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #878787;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 170px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 20px;
 }
